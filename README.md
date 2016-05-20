@@ -5,7 +5,7 @@ modifying the targeted object.
 
 ### Accessing Properties
 
-```
+```php
 use Catalyst\Injector\InjectorFactory;
 
 class GreetUtility {
@@ -26,7 +26,7 @@ echo $impersonatedInstance->greet();
 
 ### Iterating over properties
 
-```
+```php
 use Catalyst\Injector\InjectorFactory;
 
 class Foo {
